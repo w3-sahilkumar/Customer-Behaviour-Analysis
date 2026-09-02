@@ -490,7 +490,7 @@ customer-shopping-behavior-analysis/
 │   └── customer_behavior_dashboard.pbix
 │
 ├── 📂 images/
-│   └── customer_behavior_dashboard.png
+│   └── dashboard_img.png
 │
 ├── 📄 README.md
 └── 📄 LICENSE
