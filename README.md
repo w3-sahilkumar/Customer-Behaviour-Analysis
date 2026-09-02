@@ -12,11 +12,7 @@
 
 ## 📊 Project Overview
 
-This project analyzes customer shopping behavior for a retail business to identify purchasing patterns, customer segments, product performance, discount behavior, and factors influencing customer spending.
-
 The project follows an **end-to-end data analytics workflow**, starting with data exploration and cleaning in Python, followed by advanced SQL analysis in MySQL and interactive business intelligence reporting in Power BI.
-
-The goal is to transform raw customer data into **actionable business insights** that can support marketing, customer engagement, product strategy, and revenue optimization.
 
 ---
 
@@ -26,17 +22,7 @@ A retail company wants to better understand its customers' shopping behavior in 
 
 - Improve customer engagement
 - Increase sales and revenue
-- Identify valuable customer segments
 - Understand purchasing patterns
-- Evaluate the impact of discounts
-- Identify high-performing products
-- Analyze subscription behavior
-- Understand demographic differences in spending
-- Optimize marketing and product strategies
-
-### Key Business Question
-
-> **How can the company leverage customer shopping data to identify trends, improve customer engagement, and optimize marketing and product strategies?**
 
 ---
 
@@ -82,8 +68,6 @@ A retail company wants to better understand its customers' shopping behavior in 
 # 🗂️ Dataset
 
 The dataset contains customer-level shopping information.
-
-Each row represents a customer's latest purchase and contains information related to demographics, products, spending, promotions, shipping, subscriptions, and purchasing behavior.
 
 ### Main Features
 
@@ -341,23 +325,6 @@ FROM customer_shopping_behavior
 GROUP BY age_group
 ORDER BY revenue DESC;
 ```
-
-### 🧠 SQL Skills Demonstrated
-
-* Aggregate functions — `SUM()`, `AVG()`, `COUNT()`
-* Data filtering using `WHERE`
-* Grouping and aggregation using `GROUP BY`
-* Conditional logic using `CASE WHEN`
-* Subqueries
-* Common Table Expressions (CTEs)
-* Window functions
-* `ROW_NUMBER()` and `PARTITION BY`
-* Sorting using `ORDER BY`
-* Limiting results using `LIMIT`
-* Customer segmentation
-* Revenue analysis
-* Discount analysis
-* Subscription and customer behavior analysis
 
 ### 📌 Key Business Areas Analyzed
 
