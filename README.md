@@ -371,36 +371,6 @@ The dashboard is designed to allow users to interactively filter customer behavi
 
 ---
 
-# 📌 Business Recommendations
-
-Based on the analysis, the following actions could be considered:
-
-### 1. Improve Subscription Conversion
-
-Target high-frequency and repeat customers who have not subscribed with personalized membership benefits or exclusive offers.
-
-### 2. Optimize Discount Strategy
-
-Identify products with high discount dependency and evaluate whether discounts are generating incremental revenue or unnecessarily reducing margins.
-
-### 3. Promote High-Rated Products
-
-Feature highly rated products prominently in marketing campaigns and recommendation systems.
-
-### 4. Develop Customer-Specific Marketing
-
-Use customer segments and demographics to create more targeted campaigns rather than using a single strategy for the entire customer base.
-
-### 5. Evaluate Premium Delivery
-
-Since express-shipping customers show higher average purchase values, the company could evaluate premium delivery options as part of a broader customer experience strategy.
-
-### 6. Focus on High-Value Customer Segments
-
-Prioritize loyal and high-spending customers with retention campaigns, personalized recommendations, and exclusive offers.
-
----
-
 # 🛠️ Tools & Technologies
 
 | Tool | Purpose |
@@ -413,28 +383,6 @@ Prioritize loyal and high-spending customers with retention campaigns, personali
 | 🧮 SQL | Business analysis & data querying |
 | 🔢 DAX | Power BI measures and calculations |
 | 🔧 GitHub | Version control & portfolio |
-
----
-
-# 🧠 SQL Concepts Demonstrated
-
-This project includes practical implementation of:
-
-- `SELECT`
-- `WHERE`
-- `GROUP BY`
-- `HAVING`
-- `ORDER BY`
-- `CASE`
-- Aggregate Functions
-- Subqueries
-- CTEs (`WITH`)
-- `ROW_NUMBER()`
-- `PARTITION BY`
-- `JOIN` concepts
-- Conditional aggregation
-- Ranking
-- Customer segmentation
 
 ---
 
@@ -517,11 +465,5 @@ I'm a banking professional transitioning into **Data Analytics / Business Analyt
 I'm currently expanding my technical skills in:
 
 **SQL • Python • Pandas • Power BI • Excel • Data Visualization**
-
-This project is part of my data analytics portfolio and demonstrates my ability to take a dataset from **raw data → cleaning → analysis → visualization → business insights**.
-
----
-
-⭐ **If you found this project useful, feel free to star the repository!**
 
 **Made with Python, SQL & Power BI.**
