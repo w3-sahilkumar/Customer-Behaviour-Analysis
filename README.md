@@ -299,7 +299,7 @@ Analyzed revenue contribution across customer age groups.
 
 # 📈 Phase 3 — Power BI Dashboard
 
-![Power BI Dashboard](images/dashboard_img.png)
+![Power BI Dashboard](dashboard_img.png)
 
 The cleaned MySQL dataset was connected directly to **Power BI** to create an interactive customer behavior dashboard.
 
