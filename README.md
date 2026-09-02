@@ -399,43 +399,11 @@ The dashboard includes:
 
 ### Dashboard Preview
 
-> **Replace the image below with your actual Power BI screenshot.**
-
 ```markdown
-![Customer Shopping Behavior Dashboard](images/customer_behavior_dashboard.png)
+![Customer Shopping Behavior Dashboard](images/dashboard_img.png)
 ```
 
 The dashboard is designed to allow users to interactively filter customer behavior by demographic and purchasing characteristics.
-
----
-
-# 💡 Key Business Insights
-
-The analysis revealed several useful patterns:
-
-### 👥 Customer Loyalty
-
-The dataset contains a large proportion of customers with significant previous purchase history, indicating a strong presence of returning/loyal customers.
-
-### 💳 Subscription Opportunity
-
-A significant portion of repeat buyers are not subscribed, suggesting an opportunity to improve subscription conversion through targeted offers and stronger membership benefits.
-
-### 🏷️ Discount Dependency
-
-Some products have substantially higher discount rates than others. These products should be monitored to determine whether discounts are driving incremental sales or simply reducing margins.
-
-### 🚚 Shipping Behavior
-
-Customers choosing express shipping demonstrate higher average purchase values in the analyzed dataset, suggesting a potential relationship between premium delivery preferences and customer spending.
-
-### 👶 Demographic Revenue
-
-Age-group analysis highlights differences in revenue contribution across customer segments, providing an opportunity for demographic-specific marketing strategies.
-
-### ⭐ Product Quality
-
-Products with consistently high review ratings can be prioritized for marketing campaigns, recommendations, and premium positioning.
 
 ---
 
