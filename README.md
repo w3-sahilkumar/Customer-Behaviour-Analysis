@@ -376,9 +376,6 @@ ORDER BY revenue DESC;
 
 # 📈 Phase 3 — Power BI Dashboard
 
-<p align="center">
-  <img src="dashboard_img.png" alt="Power BI Customer Behaviour Dashboard" width="900">
-</p>
 The cleaned MySQL dataset was connected directly to **Power BI** to create an interactive customer behavior dashboard.
 
 ### Dashboard Features
@@ -399,9 +396,9 @@ The dashboard includes:
 
 ### Dashboard Preview
 
-```markdown
-![Customer Shopping Behavior Dashboard](images/dashboard_img.png)
-```
+<p align="center">
+  <img src="dashboard_img.png" alt="Power BI Customer Behaviour Dashboard" width="900">
+</p>
 
 The dashboard is designed to allow users to interactively filter customer behavior by demographic and purchasing characteristics.
 
