@@ -93,28 +93,27 @@ The dataset contains customer-level shopping information.
 
 ---
 
-# 🐍 Phase 1 — Data Analysis & Cleaning with Python
+## 🐍 Phase 1 — Data Analysis & Cleaning with Python
 
-Python and Pandas were used for initial data exploration, cleaning, and feature engineering.
+Python 🐍 and **Pandas** were used for **EDA, data cleaning, validation, and feature engineering**.
 
-### Exploratory Data Analysis
+### 🔎 Exploratory Data Analysis
 
-The dataset was inspected using:
+```python
+df.head()
+df.info()
+df.describe()
+```
 
-- `df.head()`
-- `df.info()`
-- `df.describe()`
-- Missing-value analysis
-- Categorical-value inspection
-- Data consistency checks
+Also performed:
 
-### Missing Value Treatment
+* Missing-value analysis
+* Categorical-value inspection
+* Data consistency checks
 
-The `review_rating` column contained missing values.
+### 🧹 Missing Value Treatment
 
-Instead of replacing all missing values with the overall median, the missing ratings were imputed using the **median rating within each product category**.
-
-This preserves differences between categories and provides a more context-aware imputation strategy.
+`review_rating` was imputed using the **category-wise median**:
 
 ```python
 df['review_rating'] = (
@@ -123,53 +122,56 @@ df['review_rating'] = (
 )
 ```
 
-### Column Standardization
+### 🏷️ Column Standardization
 
-Column names were standardized into **snake_case** to make them easier to work with in both Python and SQL.
-
-Example:
+Converted column names to `snake_case`:
 
 ```text
-Customer ID → customer_id
-Purchase Amount USD → purchase_amount
-Review Rating → review_rating
+Customer ID          → customer_id
+Purchase Amount USD  → purchase_amount
+Review Rating        → review_rating
 ```
 
-### Feature Engineering
+### ⚙️ Feature Engineering
 
-Two additional features were created:
-
-#### 1. Age Group
-
-Customers were segmented into four age groups using quantile-based binning:
-
-- Young Adult
-- Adult
-- Middle-aged
-- Senior
-
-#### 2. Purchase Frequency Days
-
-Text-based purchase frequencies were converted into numerical day intervals.
-
-For example:
+**Age Group**
 
 ```text
-Weekly → 7 days
-Fortnightly → 14 days
-Monthly → 30 days
-Quarterly → 90 days
+Age → Young Adult | Adult | Middle-aged | Senior
 ```
 
-This makes purchase frequency easier to analyze quantitatively.
+**Purchase Frequency**
 
-### Redundant Column Removal
+```text
+Weekly       → 7 days
+Fortnightly  → 14 days
+Monthly      → 30 days
+Quarterly    → 90 days
+```
 
-`promo_code_used` was compared with `discount_applied`.
+### 🗑️ Redundant Column Removal
 
-Since both columns contained the same information in this dataset, the redundant `promo_code_used` column was removed.
+```text
+promo_code_used  → Removed
+discount_applied → Retained
+```
 
----
+`promo_code_used` was removed because it contained the same information as `discount_applied`.
+
+### ✅ Phase 1 Result
+
+```text
+Raw Dataset
+     ↓
+Exploration & Validation
+     ↓
+Data Cleaning
+     ↓
+Feature Engineering
+     ↓
+Clean Analysis-Ready Dataset
+```
+
 
 ## 🗄️ Phase 2 — SQL Analysis
 
