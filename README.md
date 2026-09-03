@@ -93,7 +93,7 @@ The dataset contains customer-level shopping information.
 
 ---
 
-# 🐍 Phase 1 — Data Analysis & Cleaning with Python
+# 🐍 Phase 1 — Data Cleaning with Python
 
 Python 🐍 and **Pandas** were used for **EDA, data cleaning, validation, and feature engineering**.
 
