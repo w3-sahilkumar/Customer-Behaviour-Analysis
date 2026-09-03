@@ -158,20 +158,6 @@ discount_applied → Retained
 
 `promo_code_used` was removed because it contained the same information as `discount_applied`.
 
-### ✅ Phase 1 Result
-
-```text
-Raw Dataset
-     ↓
-Exploration & Validation
-     ↓
-Data Cleaning
-     ↓
-Feature Engineering
-     ↓
-Clean Analysis-Ready Dataset
-```
-
 
 ## 🗄️ Phase 2 — SQL Analysis
 
