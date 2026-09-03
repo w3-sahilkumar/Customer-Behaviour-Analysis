@@ -93,7 +93,7 @@ The dataset contains customer-level shopping information.
 
 ---
 
-## 🐍 Phase 1 — Data Analysis & Cleaning with Python
+# 🐍 Phase 1 — Data Analysis & Cleaning with Python
 
 Python 🐍 and **Pandas** were used for **EDA, data cleaning, validation, and feature engineering**.
 
@@ -159,7 +159,7 @@ discount_applied → Retained
 `promo_code_used` was removed because it contained the same information as `discount_applied`.
 
 
-## 🗄️ Phase 2 — SQL Analysis
+# 🗄️ Phase 2 — SQL Analysis
 
 The cleaned dataset was imported into **MySQL** for business-oriented data analysis. SQL queries were developed to answer key questions related to customer spending, discounts, subscriptions, product performance, customer loyalty, and revenue.
 
